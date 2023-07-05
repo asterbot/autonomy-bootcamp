@@ -6,7 +6,10 @@
 - This project was created as a submission to the WARG autonomy BootCamp.
 - This project aims to create a **Convolutional Neural Network(CNN)** which trains based on data in the CIFAR-10 dataset and have high accuracy while testing on unknown images
 - The CIFAR-10 dataset contains images of 10 classes (plane,car ,deer ,etc.) which the network is trained on
-
+- The dataset was split into training data(60,000 images) and testing data(10,000 images)
+- The network was trained to fit the training images and was tested on all the testing images on each epoch
+- The loss function used to train was the CrossEntropyLoss, which is $\sum\limits_{i}t_i \log(p_i)$ where $t_i$ is the truth label and $p_i$ is the softmax probability of the ith class
+  
 ## Structure of the Network
 The network has the following structure (in order):
 - Input Layer
@@ -18,8 +21,10 @@ The network has the following structure (in order):
 
 ## Result
 The network performed well and was able to acheive an accuracy of ~85%
-The network was trained to fit 60,000 training images and was tested on 10,000 testing images on each epoch.
 <table>
+  <tr>
+    <th>Accuracy</th>
+    <th>Loss</th>
   <tr>
     <td><img src = "accuracy.png"></td>
     <td><img src="losses.png"></td>
