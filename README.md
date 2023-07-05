@@ -3,10 +3,9 @@
 <h4 align="center">Efficient Image Recognition with Keras: Harnessing Deep Learning for Accurate Visual Classification</h4>
 
 ## Description and Aim
-This project was created as a submission to the WARG autonomy BootCamp.
-<br>This project aims to create a **Convolutional Neural Network(CNN)** which trains based on data in the CIFAR-10 dataset
-<br>and have high accuracy while testing on unknown images
-<br>The CIFAR-10 dataset contains images of 10 classes (plane,car ,deer ,etc.) which the network is trained on
+- This project was created as a submission to the WARG autonomy BootCamp.
+- This project aims to create a **Convolutional Neural Network(CNN)** which trains based on data in the CIFAR-10 dataset and have high accuracy while testing on unknown images
+- The CIFAR-10 dataset contains images of 10 classes (plane,car ,deer ,etc.) which the network is trained on
 
 ## Structure of the Network
 The network has the following structure (in order):
@@ -19,6 +18,12 @@ The network has the following structure (in order):
 
 ## Result
 The network performed well and was able to acheive an accuracy of ~85%
-<img src = "accuracy.png">
-<img src="losses.png">
-The exact values can be seen in `output.txt`
+The network was trained to fit 60,000 training images and was tested on 10,000 testing images on each epoch.
+<table>
+  <tr>
+    <td><img src = "accuracy.png"></td>
+    <td><img src="losses.png"></td>
+  </tr>
+</table>
+
+<br>The exact values can be seen in `output.txt`
