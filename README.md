@@ -31,4 +31,4 @@ The network performed well and was able to acheive an accuracy of ~85%
   </tr>
 </table>
 
-<br>The exact values can be seen in [a relative link](output.txt)
+<br>The exact values can be seen in [a output.txt](output.txt)
