@@ -1,5 +1,4 @@
 <h1 align="center">Image Recognizer </h1>
-<br>
 <h4 align="center">Efficient Image Recognition with Keras: Harnessing Deep Learning for Accurate Visual Classification</h4>
 
 ## Description and Aim
