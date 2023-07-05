@@ -1,4 +1,4 @@
-<h1 align="center">Keras Image Classifier: Accurate Visual Classification</h1>
+<h1 align="center">Keras Image Classifier</h1>
 <h4 align="center">Efficient Image Recognition with Keras: Harnessing Deep Learning for Accurate Visual Classification</h4>
 
 ## Description and Aim
@@ -31,4 +31,4 @@ The network performed well and was able to acheive an accuracy of ~85%
   </tr>
 </table>
 
-<br>The exact values can be seen in `output.txt`
+<br>The exact values can be seen in [a relative link](output.txt)
