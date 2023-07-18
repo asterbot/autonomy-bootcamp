@@ -127,7 +127,7 @@ class Net(nn.Module):
             x (torch.Tensor): Input image
 
         Returns:
-            x (torch.Tensor): Output image
+            x (torch.Tensor): Output value(0 to 9)
         """
         # Applies conv1 to x, followed by ReLU and max pooling
         x = F.relu(self.conv1(x))
