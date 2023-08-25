@@ -9,7 +9,7 @@
 ## Implementation
 - The dataset was split into training data(60,000 images) and testing data(10,000 images)
 - The network was trained to fit the training images and was tested with the testing images on each epoch
-- The loss function used to train was the CrossEntropyLoss, which is $\sum\limits_{i}t_i \log(p_i)$ where $t_i$ is the truth label and $p_i$ is the softmax probability of the ith class, for each element in the training data
+- The loss function used to train was the `CrossEntropyLoss`, which is $\sum\limits_{i}t_i \log(p_i)$ where $t_i$ is the truth label and $p_i$ is the softmax probability of the ith class, for each element in the training data
 - The optimizer used to train was Adam, which is a Scholastic Gradient Descent(SGD) method based on adaptive estimations
 - To avoid overfitting, extra convolutional layers were added in the network
   
